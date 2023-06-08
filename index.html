@@ -1,109 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-  <link rel="stylesheet" href="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href='https://unpkg.com/aos@2.3.1/dist/aos.css' rel='stylesheet'>
+  <meta charset="utf-8">
   <title>Detox Network</title>
-  <link rel="icon" type="image/x-icon" href="logo.svg">
-  <link rel="stylesheet" href="index.css">
+  <meta name="description" content="Instant Freedom.
+    ">
+  <meta name="author" content="Detox Network" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" media="screen" href="style.css">
 </head>
-    <code id="navbar"></code>
-<script src="https://new-navbar.detoxnetwork.repl.co/index.min.js"></script>
-<body> 
-  <div id="info" class="row">
-     <div class="column">
-    <h1 id="title">Detox<br>Network</h1>
-       <div id="quick">
-    <p>
-    We are Detox, an assortment of useful websites to help you in school or your day-to-day life. Our collection is constantly growing and improving, aiming to provide you the best experience possible. Here at the homepage, we feature our best sites and projects, so far being Evade, subLink, and Phantom.
-    </p>
-       </div>
-       <div class="row" id="leftbtns">
-         <div class="column" id="topbuttons">
-         <a href="https://evade.detoxnetwork.repl.co">
-    <button class="button" id ="evadetop">Evade</button>
-  </a>
-         </div>
-         <div class="column" id="topbuttons">
-         <a href="https://sublink.detoxnetwork.repl.co">
-    <button class="button" id ="sublinktop">subLink</button>
-  </a>
-         </div>
-         <div class="column" id="topbuttons">
-         <a href="https://phantom.detoxnetwork.repl.co/">
-    <button  class="button" id ="phantomtop">Phantom</button>
-  </a>
-         </div>
-       </div>
-  </div>
-  <img id=titleimage src="pc graphic.svg">
-  <div id="scrolldiv">
-  <a id="scroll" href="#descriptions"> <button class="button" id="scrollbtn"><img src="down arrow.svg" id="down">  Tell Me More!  <img src="down arrow.svg" id="down"></button></a>
-  </div>
-  </div>
 
-  <div id="descriptions">
-    <h2>
-      Evade
-    </h2>
-    <p>
-      Evade is a collection of bookmarklets that allows you to bypass any school or work web filter. Simply drag the code into your bookmarks bar, then click on it while on a webpage. It will activate the code and you will never be bored in school again!
-    </p>
-    <br>
-<hr color="black" width="70%" noshade>
-    <h2>
-      subLink
-    </h2>
-    <p>
-      subLink is an intuitive web proxy that has multiple options as which way you will bypass web filters. To use subLink, enter a link, select the proxy you want to use, and hit enter. subLink has two modes: normal and incognito.
-    </p>
-    <br>
-  <hr color="black" width="70%" noshade>
-    <h2>
-      Phantom
-    </h2>
-    <p>
-      Phantom is a way to disable any extension installed by your administrator. Simply click on the bookmark, and you will be brought to a page to enable or disable anything. This does not work for installing new extensions.
-    </p>
-</div>
-
-  <div id="buttons" class="row">
-  <div id="goto" class="column">
-    <h1 id="takemeto">Take me to...</h1>
-  </div>
-    <div class="column">
-  <a href="https://evade.detoxnetwork.repl.co">
-    <button class="button" id ="evade">Evade</button>
-  </a>
-    <br>
-  <a href="https://sublink.detoxnetwork.repl.co/">
-    <button class="button" id="subLink">subLink</button>
-  </a>
-      <a href="https://phantom.detoxnetwork.repl.co/">
-    <button class="button" id="phantom">Phantom</button>
-  </a>
+<body>
+  <div id="fullpage">
+    <div class="section" id="particles-js">
+      <div id="detox-blur"></div>
+      <h1 id="title" data-aos='fade-up'>Detox</h1>
+      <p id="des" data-aos='fade-up'>
+        Welcome to Detox Network, an assortment of powerful websites to help you to unrestrict anything in school or
+        your
+        day-to-day life.
+      </p>
+      <p id="scroll">Scroll down to begin.</p>
     </div>
-<script async src="https://api.countapi.xyz/hit/detoxnetwork/3a67df84-f298-4a3c-bad6-ad1d5bd9b3af?callback=websiteVisits"></script>
-    <h3>Detox has <span id="visits"></span> visits!</h3>
-  
-<div id="contact">
-<p id="contact">If you have any questions, experience bugs, or would like to request something, please join the <a href="https://discord.gg/8fB687d4Ut">Discord</a> and ping @Helpers in the requests channel.</p>
-</div>
-  <script src="script.js"></script>
-  <link rel="stylesheet" href="./index.scss">
-<script src="https://unpkg.com/mouse-follower@1/dist/mouse-follower.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-    <script async src="https://arc.io/widget.min.js#uXjpUEC2"></script>
-<!--<script>
-    const cursor = new MouseFollower();
-  speed: 1
-</script>-->
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/lottie-player.js"></script>
-  <script src="/node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
-  <script src="/node_modules/@lottiefiles/lottie-player/dist/tgs-player.js"></script>
-    </body>
+    <div id="subLink" class="section">
+      <img id="sublink-img" data-aos='fade-up' src="subLink.svg" />
+      <div id="sublink-blur"></div>
+      <h1 id="subLink-title" data-aos='fade-up'><a href="https://sublink-supremerubisco.koyeb.app/ ">subLink</a></h1>
+      <p id="subLink-des" data-aos='fade-up'>A powerful proxy service bringing privacy, security, and freedom to all.
+        Supports websites
+        including Discord, Youtube, and More! subBrowser is coming out soon, a full fledged browser in browser! Current
+        subLink includes an incognito mode, AB cloak is also coming soon! Soon offering other backend proxy servers to
+        support an even wider variety of websites.
+      </p>
+    </div>
+    <div id="evade" class="section">
+      <img id="evade-img" data-aos='fade-up' src="evade.png" />
+      <div id="evade-blur"></div>
+      <h1 id="evade-title" data-aos='fade-up'><a href="https://evade.detoxnetwork.repl.co">Evade</a></h1>
+      <p id="evade-des" data-aos='fade-up'>Evade is a giant collection of bookmarklets to help you in your day-to-day
+        life or just keep you entertained when there's nothing to do. What are bookmarklets, you may ask? They're
+        snippets of JavaScript code that are put into a bookmark, allowing you to do anything from playing tic tac toe
+        to opening a search engine in a tab that won't show up in your history.
+      </p>
+    </div>
+    <div id="emulator" class="section">
+      <img id="emulator-img" src="emulator.png" data-aos='fade-up' />
+      <div id="emulator-blur"></div>
+      <h1 id="emulator-title" data-aos='fade-up'><a href="https://emulatorjs.detoxnetwork.repl.co">EmulatorJS</a></h1>
+      <p id="emulator-des" data-aos='fade-up'>EmulatorJS is a powerful emulator that emulates almost any retro video
+        game console you know
+        of. This includes Playstation, Nintendo, and Sega consoles. We’re soon adding more support for more consoles and
+        adding emulators for Windows, Linux and other Operating Systems all on the web!</p>
+    </div>
+    <div id="phantom" class="section">
+      <img id="phantom-img" src="phantom.png" data-aos='fade-up'>
+      <div id="phantom-blur"></div>
+      <h1 id="phantom-title" data-aos='fade-up'><a href="https://phantom.detoxnetwork.repl.co">Phantom</a></h1>
+      <p id="phantom-des" data-aos='fade-up'>Phantom is a way to get full access to your computer by disabling any
+        extension installed by your administrator. This means you can disable the extension that blocks websites,
+        images, and more! Phantom only needs bookmarks for it to work, meaning that you're 3 clicks away from freedom!
+      </p>
+      <div id="footer">
+        <p id="copyright">&copy; 2023 Detox Network</p>
+        <p id="footer-des">If you have any questions, experience bugs, or would like to request something, please join
+          the <a href="https://discord.gg/8fB687d4Ut"> Discord </a> and ping @Helpers in the #requests channel.</p><br>
+      </div>
+    </div>
+  </div>
+  <code id="navbar"></code>
+  <script src='https://unpkg.com/aos@2.3.1/dist/aos.js'></script>
+  <script src="https://new-navbar.detoxnetwork.repl.co/index.min.js"></script>
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fullpage.css" />
+  <script type="text/javascript" src="fullpage.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>
